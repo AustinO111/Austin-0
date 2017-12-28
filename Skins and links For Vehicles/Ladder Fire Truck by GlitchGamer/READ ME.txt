@@ -1,0 +1,42 @@
+
+Ladder Fire Truck by GlitchGamer
+
+============================================================================================================================================
+
+1) Download the vehicle files from http://www.lcpdfr.com/files/file/9466-ladder-fire-truck-alpha-model/
+
+============================================================================================================================================ 
+
+2) Rename the 3 to 4 vehicle files (.yft, .ytd, _hi.yft & +hi.ytd ) to fire2
+
+============================================================================================================================================
+
+NOTE- If there are multiple versions of vehicle files for different options IE wheels, rims, trim, lights etc, my files will work for any of them 
+
+ -DO NOT USE THE CARVARIATIONS.META OR VEHICLES.META THAT COMES WITH VEHICLE
+ -ALWAYS USE A MODS FOLDER
+ -REPLACE THE GAMECONFIG.XML FILE PROVIDED IN THIS PACK IF YOU HAVE MULIPLE ADD-ONS INSTALLED TO KEEP YOUR GAME FROM CRASHING
+ -IF YOU HAVE ANY ISSUES, REFER TO MY SUPPORT SECTION BEFORE CONTACTING ME. 
+
+============================================================================================================================================
+
+3) Place all vehicle files in GTA V\mods\update\x64\dlcpacks\patchday7ng\dlc.rpf\x64\levels\gta5\vehicles.rpf\
+
+============================================================================================================================================
+
+4)Copy and Paste Carvariations.meta to GTA V\mods\update\x64\dlcpacks\mpheist\dlc.rpf\common\data\carvariations.meta At the very top of file after <variationData> line
+
+============================================================================================================================================
+
+5)Copy and Paste Vehicles.meta to  GTA V\mods\update\update.rpf\common\data\levels\gta5\vehicles.meta at the very top of file after <InitDatas>
+
+============================================================================================================================================
+
+6)Copy and paste the below lines it to the bottom of your Vehicles.meta file above </txdRelationships> line at the very bottom of file.
+
+============================================================================================================================================
+
+    <Item>
+      <parent>vehshare_truck</parent>
+      <child>fire2</child>
+    </Item>
